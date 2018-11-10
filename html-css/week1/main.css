@@ -1,0 +1,61 @@
+
+h1,h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    background-color: rgb(43, 0, 0);
+
+}
+h2{
+    font-size: 26px;
+   }
+#personalinfo{
+    position: absolute;
+    top:75px;
+    left: 600px;
+    border: 5px solid rgb(43, 0, 0);
+    background-color: white;
+}
+#workEXP{
+    position: absolute;
+    top:75px;
+    left: 900px;
+    border: 5px solid rgb(43, 0, 0);
+    background-color: white;
+
+}
+#education{
+    position: absolute;
+    top:350px;
+    left: 900px;
+    border: 5px solid rgb(43, 0, 0);
+    background-color: white;
+
+}
+#skills{
+    position: absolute;
+    top:350px;
+    left: 600px;
+    border: 5px solid rgb(43, 0, 0);
+    background-color: white;
+
+}
+p,li{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+ul img{
+    background-color: white;
+}
+#aboutme{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-style: italic;
+    
+}
+.space{
+    padding-top: 50px;
+}
