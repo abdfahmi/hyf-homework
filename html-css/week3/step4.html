@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Step nr.4</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header>
+        <img src="https://ak4.picdn.net/shutterstock/videos/8145634/thumb/1.jpg" alt="logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="step1.html">step 1</a></li>
+                <li><a href="step2.html">step 2</a></li>
+                <li><a href="step3.html">step 3</a></li>
+                <li><a href="step4.html">step 4</a></li>
+            </ul>
+        </nav>
+</header>
+
+    <div class="body">
+   <h1>Sign up to yourcustomtailor.com</h1> 
+    <h2>Step 4/4 - Payment</h2>
+    <h4>Progress</h4>
+    <progress max="100" value="90">90/100</progress>
+    <form action="none" class="form">
+        <p>Please fill in your payment data</p>
+        <section>
+        <label for="card-name">name of the card holder</label>
+        <input type="text" name="card-name" id="card-name" required>
+        <label for="card-type">card type</label>
+        <select name="card-type" id="card-type">
+            <option value="Visa">Visa</option>
+            <option value="master-card">Master card</option>
+        </select>
+    </section>
+    <section>
+        <label for="card-number">Credit card number</label>
+        <input type="number" name="card-number" id="card-number"pattern="[0,9]" minlength="9" maxlength="15" required>
+        <label for="first-name">First name *</label>
+        <input type="text" id="first-name" name="first-name" pattern="^[a-zA-Z]+" minlength="2" maxlength="21" required>
+    </section>
+    <section>
+        <label for="expiry-m">Expiry month</label>
+        <input type="month" name="expiry-m" id="expiry-m" minlength="1" maxlength="2" pattern="[0,9]" required>
+        <label for="expiry-y">Expiry year</label>
+        <input type="year" name="expiry-y" id="expiry-y" minlength="4" maxlength="4" pattern="[0,9]" required>
+        <label for="ccv">CCV</label>
+        <input type="number" name="ccv" id="ccb" minlength="3" maxlength="3" pattern="[0,9]" required>
+    </section>
+        <button type="submit">submit</button>
+    </form>
+</form>
+</div>
+</body>
+</html>

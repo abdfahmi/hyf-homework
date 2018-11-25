@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Step nr.1</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+        <header>
+            <img src="https://ak4.picdn.net/shutterstock/videos/8145634/thumb/1.jpg" alt="logo" id="logo">
+                <nav>
+                    <ul>
+                        <li><a href="step1.html">step 1</a></li>
+                        <li><a href="step2.html">step 2</a></li>
+                        <li><a href="step3.html">step 3</a></li>
+                        <li><a href="step4.html">step 4</a></li>
+                    </ul>
+                </nav>
+            </header>
+    <div class="body">
+   <h1>Sign up to yourcustomtailor.com</h1> 
+   <p>We can’t wait to help you improve your life-style and gain the attention from people around
+    you!<br><br>
+    Sign up below to save up to 70% on apparel, hand-bags and cosmetics. Our agents are busy
+    picking the best offers that match your preferences and style. Every week we will send you a
+    hand-picked selection - we just need to know a few details about your first…</p>
+    <h2>Step 1/4 - tell us who you are?</h2>
+    <h4>Progress</h4>
+    <progress max="100" value="25">25/100</progress>
+    <p>Nice to meet you. Let’s spend a minute to get to know each other? Please enter the following:</p>
+    <form action="step2.html" class="form">
+        <section>
+        <label for="first-name">First name *</label>
+        <input type="text" id="first-name" name="first-name" pattern="^[a-zA-Z]+" minlength="2" maxlength="21" required>
+        <label for="last-name">last name *</label>
+        <input type="text" id="last-name" name="last-name" pattern="^[a-zA-Z]+" minlength="2" maxlength="21" required>
+    </section>
+    <section>
+        <label for="country">country *</label>
+        <select name="country" id="country"required>
+        <option value="Denmerk">Denmerk</option>
+        <option value="swiden">swiden</option>
+        <option value="finland">finland</option>
+    </select>
+    </section>
+    <section>
+    <label for="adress">street adress *</label>
+    <input type="text" id="adress" name="adress" minlength="5" required>
+    <label for="post-code">post code *</label>
+    <input type="number" id="post-code" name="post-code" pattern="[0,9]" minlength="2" maxlength="6" required>
+    </section>
+    <section>
+    <label for="profile-dis">Profile description</label>
+    <p>Please provide a shor description of yourself to be displayed on our social community pages.</p>
+    <textarea name="profile-dis" id="profile-dis" cols="100" rows="10"></textarea>
+    <p>Use the same address for billing and shipping? Uncheck below to fill out a separate shipping address.</p>
+    <label for="shipping-adress">shipping adress</label>
+    <input type="checkbox" name="shipping-adress" id="shipping-adress"checked>
+    <div>
+        <form action="shipping-adress">
+            <section>
+            <label for="first-name">First name *</label>
+            <input type="text" id="first-name" name="first-name" pattern="^[a-zA-Z]+" minlength="2" maxlength="21" required>
+            <label for="last-name">last name *</label>
+            <input type="text" id="last-name" name="last-name" pattern="^[a-zA-Z]+" minlength="2" maxlength="21" required>
+        </section>
+        <section>
+            <label for="country">country *</label>
+            <select name="country" id="country"required>
+            <option value="Denmerk">Denmerk</option>
+            <option value="swiden">swiden</option>
+            <option value="finland">finland</option>
+        </select>
+        </section>
+        <section>
+        <label for="adress">street adress *</label>
+        <input type="text" id="adress" name="adress" minlength="5" required>
+        <label for="post-code">post code *</label>
+        <input type="number" id="post-code" name="post-code" pattern="[0,9]" minlength="2" maxlength="6" required>
+        </section>
+        </form>
+    </div>
+    <button><a href="step2.html">Next</a></button>
+</section>
+</form>
+</div>
+</body>
+</html>

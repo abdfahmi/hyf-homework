@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Step nr.2</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+            <img src="https://ak4.picdn.net/shutterstock/videos/8145634/thumb/1.jpg" alt="logo" id="logo">
+            <nav>
+                <ul>
+                    <li><a href="step1.html">step 1</a></li>
+                    <li><a href="step2.html">step 2</a></li>
+                    <li><a href="step3.html">step 3</a></li>
+                    <li><a href="step4.html">step 4</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div class="body">
+    <h1>Sign up to yourcustomtailor.com</h1> 
+    <h2>Step 2/4 - how can we reach you?</h2>
+    <h4>Progress</h4>
+    <progress max="100" value="50">50/100</progress>
+    <form action="step3.html" class="form">
+    <section>
+    <label for="email">email</label>
+    <input type="email" id="email" name="email" pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$" required>
+    <label for="phone">phone number</label>
+    <input type="number"id="phone" name="phone" pattern="[0,9]" minlength="7" maxlength="11">
+    </section>
+    <section>
+    <label for="password">password</label>
+    <input type="password" id="password" name="password" minlength="7" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
+    <label for="re-password">repeat password</label>
+    <input type="password" id="re-password" name="re-password" minlength="7" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$">
+    </section>
+    <section>
+    <label for="news">I want to sign up for the newsletter</label><br><br>
+    Weekly news<input type="radio" name="news" value="Weekly">
+    Monthly news<input type="radio" name="news" value="Monthly">
+    Don't send me news<input type="radio" name="news" value="none">
+    </section>
+    <button><a href="step3.html">Next</a></button>
+</form>
+</div>
+</body>
+</html>
