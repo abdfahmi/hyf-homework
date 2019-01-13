@@ -1,0 +1,12 @@
+Useful git commands:
+
+ `git log`
+ `git log --oneline`
+
+Command line commands that might be useful:
+
+`cd <folder_name>` - to go inside folder_name
+`cd ..`- to go to the parent folder of your current folder
+`mkdir <folder_name>` - to create a new folder
+`ls`- list all the folder contents
+`ls .*` - list all the folder contents, also invisible folders/files (e.g. the git folder)
